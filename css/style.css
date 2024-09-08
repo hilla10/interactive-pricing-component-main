@@ -28,7 +28,7 @@ body {
 }
 
 .main {
-  background: url('../images/bg-pattern.svg') no-repeat center center / cover;
+  background: url('../images/bg-pattern.svg') no-repeat;
   width: 100%;
   padding: 50px;
 }
