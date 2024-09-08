@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <main class="main">
+    <div class="header">
+      <img src="images/pattern-circles.svg" alt="">
+      <div>
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No credit card required.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="relative">
+
+        <div class="flex space-between">
+          <div class="left">
+            <span class="views-count">100k</span>
+            <h4 class="views">Pageviews</h4>
+          </div>
+          <div class="right">
+            <h2 class="price">$16.00 <span>/ month</span></h2>
+          </div>
+        </div>
+
+        <div class="slider md">
+          <input type="range" class="traffic-lg" name="traffic" min="10" max="100" value="50" step="5">
+        </div>
+      </div>
+      <div class="flex bills">
+        <p class="bill">Monthly Billing</p>
+        <input type="radio" name="" id="" class="toggle ">
+        <p class="yearly-billing">Yearly Billing <span>25% discount</span></p>
+      </div>
+      <div class="border"></div>
+      <div class="flex space-between">
+        <div class="check">
+          <div class="flex space-start">
+            <img src="images/icon-check.svg" alt="">
+            <p>Unlimited websites</p>
+          </div>
+          <div class="flex space-start">
+            <img src="images/icon-check.svg" alt="">
+            <p>100% data ownership</p>
+          </div>
+          <div class="flex space-start">
+            <img src="images/icon-check.svg" alt="">
+            <p> Email reports</p>
+          </div>
+        </div>
+        <button class="btn">Start my trial</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/hilla10" target="_blank">Hailemichael Negusse</a>.
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
